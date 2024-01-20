@@ -3,17 +3,17 @@ nav {
     padding: 10px;
   }
   
-  nav a {
+nav a {
     color: white;
     display: block;
     padding: 20px;
   }
   
-  h1 {
+h1 {
     color: steelblue;
   }
   
-  img {
+img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -21,6 +21,6 @@ nav {
     box-shadow: 0 0 30px gray;
   }
   
-  p {
+p {
     padding: 10px;
   }
