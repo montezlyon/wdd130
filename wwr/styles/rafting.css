@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Serif:opsz@8..144&display=swap');
+
+:root {
+    --primary-color: #3498DB;
+    --secondary-color: #1D1D5E;
+    --accent1-color: #3D2600;
+    --accent2-color: #95A5A6;
+
+    --heading-font: 'Roboto Serif', Serif;
+    --paragraph-font: 'Montserrat', Sans Serif;
+
+    --nav-background-color: #fff;
+    --nav-link-color:#F39C12;
+    --nav-hover-link-color: #fff; 
+    --nav-hover-background-color: #146167;
+}
+
+body {
+    max-width: 1060px;
+    padding: 20px;
+    font-family: var(--paragraph-font);
+}
+
+
+h2 {
+    padding: 10px;
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+
+}
+
+.sociallinks img {
+    width: 25%;
+    height: auto;
+    display: block;
+    ;
+}
+
+p {
+    padding: 25px;
+    background-color: var(--accent2-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero article img {
+    width: 12%;
+    height: auto;
+    float:right;
+}
+
+.hero img {
+    position: relative;
+    width: auto;
+}
+
+.hero div {
+    position: relative;
+}
+
+h1, article {
+    position: absolute;
+}
+
