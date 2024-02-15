@@ -16,6 +16,17 @@
     --nav-hover-background-color: #146167;
 }
 
+header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 120px 1fr 2fr;
+
+}
+
+header img {
+    margin: 0 0.5rem 0 4rem;
+}
+
 body {
     max-width: 1060px;
     font-family: var(--paragraph-font);
@@ -26,6 +37,7 @@ h2 {
     padding: 10px;
     font-family: var(--heading-font);
     color: var(--secondary-color);
+    text-align: center;
 
 }
 
@@ -45,6 +57,8 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    grid-column: 3;
+
 }
 
 nav a {
@@ -121,6 +135,4 @@ h1 {
     background-color:rgba(149, 166, 167, 0.4);
     text-align: center;
     color: #fff;
-    
-
 }
