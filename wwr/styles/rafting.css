@@ -27,19 +27,21 @@ header img {
     margin: 0 0.5rem 0 4rem;
 }
 
-.grid img {
-    display: grid;
-    height: auto;
-    width: 100px;
-    grid-row: 1/3;
+.grid {
+    display: flex;
+    background-color: var(--accent2-color);
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
-.grid p {
-    grid-column: 2/3;
+.grid img {
+    height: auto;
+    width: 100px;
+    float: left;
 }
 
 body {
-    max-width: 1060px;
+    max-width: 860px;
     font-family: var(--paragraph-font);
 }
 
@@ -55,15 +57,8 @@ h2 {
 .sociallinks img {
     width: 25%;
     height: auto;
-    display: block;
+    display: flex;
     text-decoration: none;
-}
-
-p {
-    grid-row: 2;
-    display: grid;
-    padding: 25px;
-    background-color: var(--accent2-color);
 }
 
 nav {
@@ -71,7 +66,7 @@ nav {
     font-size: 1.2rem;
     display: flex;
     grid-column: 3;
-
+    flex-grow: 1;
 }
 
 nav a {
@@ -79,6 +74,8 @@ nav a {
     color: var(--nav-hover-link-color);
     text-decoration: none;
     padding: 1rem;
+    align-items:flex-end;
+    
 }
 
 nav a:link, nav a:visited {
@@ -95,24 +92,28 @@ nav a:hover {
     border: 2px rgb(205, 90, 90);
 }
 
-#hero img {
-    width: 100%;
-    display: block;
-}
-
 #hero article img {
     width: 100px;
+    height: fit-content;
     float: right;
-    top: 100px;
+    padding: 10px;
+    justify-content: space-around;
     }
 
 article {
     position: absolute;
-    top: 50px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    top: 40px;
+    margin: 40px;
+    display: flex;  
+    background-color:rgba(149, 166, 167, 0.4);
+}
 
+section {
+    padding: 20px;
+}
+
+section p {
+    text-align: right;
 }
 
 h1 {
@@ -125,8 +126,29 @@ h1 {
 }
 
 #hero article p {
-    padding: 60px;
-    background-color:rgba(149, 166, 167, 0.4);
-    text-align: center;
     color: #fff;
+}
+
+figure {
+    margin: auto;
+    flex-flow: column;
+    border: thin #c0c0c0 solid;
+    padding: 5px;
+
+}
+
+.figures {
+    display: flex;
+}
+
+.figures img {
+    max-width: 220px;
+}
+
+figcaption {
+    background-color: var(--accent1-color);
+    color: #fff;
+    font: var(--paragraph-font);
+    padding: 3px;
+    text-align: center;
 }
