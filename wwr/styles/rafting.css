@@ -207,14 +207,14 @@ figure {
 
 figcaption {
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--nav-background-color);
     font: var(--paragraph-font);
     padding: 3px;
     text-align: center;
 }
     
 form {
-    width: 650px;
+    width: 100%;
     margin: 0 auto;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -233,7 +233,7 @@ fieldset {
 
 label {
     padding: 0.5rem;
-    color: navy;
+    color: var(--secondary-color);
     font-size: 1em;
     text-align: left;
     padding-right: 1rem;
@@ -252,7 +252,7 @@ input[type="checkbox"] {
     
 button {
     margin: 1rem;
-    background-color: navy;
+    background-color: var(--secondary-color);
     color: #fff;
     border: none;
     border-radius: .5rem;
@@ -261,7 +261,7 @@ button {
 }
     
 button:hover {
-    background-color: darkgreen;
+    background-color: var(--nav-hover-background-color);
 }
     
 footer {
