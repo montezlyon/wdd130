@@ -44,19 +44,16 @@ fieldset {
     padding: 1rem;
 }
 
-legend {
+label {
     padding: 0.5rem;
     color: navy;
-    font-size: 0.95em;
+    font-size: 1em;
+    text-align: left;
+    padding-right: 1rem;
 }
 
 label, input, button, select, textarea {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-label {
-    text-align: center;
-    padding-right: 1rem;
 }
 
 input, select, textarea {
