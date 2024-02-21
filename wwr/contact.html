@@ -4,7 +4,7 @@
         <link href="styles/rafting.css" rel="stylesheet">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="This is the contact information | WDD130 | Omar Montes Leon">
+        <meta name="description" content="This is the contact information page | WDD130 | Omar Montes Leon">
         <meta name="author" content="Omar Montes Leon">
         <title>Leon Rafting Adventure | Contact Us | Omar Montes Leon | WDD 130</title>
     </head>
@@ -19,73 +19,104 @@
         </nav>
     </header>
     <main>
-        <div id="hero">
-            <img src="images/background.jpeg" alt="Adventure Awaits You" width="850" height="300">
-            <h1>Leon Rafting Adventure</h1>
-            <article>
+        <div class="left">
+            <h2>Book Your Adventure! | Leon Rafting Adventure</h1>
+            </div>
+                <div class="page_summary font_1 color_1">
                 <p>
-                    Our motto: "Unleash the Rapids, Embrace the Adventure."
-                    Thrilling experiences for 18-45yo adventure seekers. 
-                    Streamlined platform, valuable info, easy booking. Connect with nature, foster camaraderie. 
-                    Mission: Accessible, thrilling rafting; Creed: Seamless connection to nature;
+                    We're ready to help you book your next adventure in the beautiful coast of Colombia.
                 </p>
-                <img src="images/happy_client.png" alt="Happy Leon Rafting Adventure">
-            </article>
-        </div>
-        <div class="grid">
+                </div>
+        <div class="right icon_1" style="position: static"; width=259.875px; height= 575px; display= block; vertical-align= baseline; float= none;>
             <section>
-                <h2>History</h2>
-                <img src="images/history.jpeg" alt="History LRA">
-                <p>
-                 Established in 2010 by passionate outdoor enthusiasts and experienced rafters,
-                 Leon Rafting Adventure was created to meet the growing demand for accessible and thrilling rafting experiences.
-                  The founders, driven by their own challenges in planning adventures, aimed to simplify information
-                   and booking processes for tech-savvy individuals. Over the years, the company has evolved into a leading provider,
-                    offering a user-friendly platform with valuable destination information and building an engaged online community.
-                     Committed to fostering camaraderie and appreciation for nature, Leon Rafting Adventure continues to connect adventure seekers
-                      with memorable experiences.
-                </p>
+                <img src="images/address.png" alt="address">
+                <p>Cra. 49A #23-46 Punta del Este Building | Apt. 201 </p>
+            </section>
+        </div>    
+        <div class="right icon_2 ">
+            <section>
+                <img src="images/phone.png" alt="phone">
+                <p>+57 313-572-6626</p>
             </section>
         </div>
-        <section>
-            <h2>Adventure Awaits You</h2>
-            <div class="figures">
+        <div class="right icon_3 ">
+            <section>
+                <img src="images/email.png" alt="phone">
+                <p>montezlyon@gmail.com</p>
+            </section>
+        </div>
+
+<div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d72034.25112097393!2d-74.80409065893608!3d9.48949723408141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sco!4v1708486464884!5m2!1sen!2sco" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h2>Our workforce</h2>
+        <div class="employees">
             <figure>
-            <img src="images/serie1.jpeg" alt="Fun rafting">
-            <figcaption>Rafting down the Amazon river</figcaption>
+            <img src="images/employee1.jpeg" alt="employee1">
+            <figcaption>Jose McCarter | VP of Sales</figcaption>
             </figure>
             <figure>
-            <img src="images/serie2.jpeg" alt="Downhill rafting">
-            <figcaption>Fun way to build team comaraderie</figcaption>
+            <img src="images/employee2.jpeg" alt="employee2">
+            <figcaption>Marina James | Head of Marketing</figcaption>
             </figure>
             <figure>
-            <img src="images/serie3.jpeg" alt="Rafting solo">
-            <figcaption>or fight solo!!</figcaption>
-            </figure>
-            <figure><img src="images/serie4.jpeg" alt="Overview">
-            <figcaption>Enjoy our drone 'follow-me' tour</figcaption>
-            </figure>
-            <figure>
-            <img src="images/serie5.jpeg" alt="Team power">
-            <figcaption>Find the perfect balance through the nature. Bring your loved ones.</figcaption>
+            <img src="images/employee3.webp" alt="employee3">
+            <figcaption>Jacob McCallister | Head of Client</figcaption>
             </figure>
             </div>
-        </section>
-    </main>
+<form>
+    <legend>Contact Information</legend>
+    <fieldset>
+            <div class="form-item column2">
+                <label for="fullname">Name</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">Email</label>
+                <input type="email" id="useremail" name="useremail">
+            </div>
+    </fieldset>
+   
+    <legend>Questions</legend>
+            <fieldset>
+        <div class="form-item column1">
+            <h2>What's the purpose of your message?</h2>
+            <input type="radio" name="general" id="message1" value="General inquiry">
+            <label for="message1">General inquiry</label>
+        </div>
+        <div class="form-item column1">
+            <input type="radio" name="reservation" id="message2" value="Reservation question">
+            <label for="message2">Reservation question</label>
+        </div>
+        <div class="form-item column1">
+            <input type="radio" name="website" id="message3" value="Website suggestion">
+            <label for="message3">Website suggestion</label>
+        </div>
+
+            <div class="form-item column1">
+                <label for="pet">Do you have a househol pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Stillwater Florida, Amsterdan Netherlands, Tibuktu Mali"></textarea>
+            </div>
+    </fieldset>
+    <button type="submit">Submit Poll</button>
+</form>
+</main>
     <footer>
         <nav class="sociallinks">
         <p>
             © 2024 | Leon Rafting Adventure | Omar Montes Leon
         </p>
-            <a href="https://www.linkedin.com/in/lyonomar/">
-                <img src="images/linekdin.svg" alt="LinkedIn">
-            </a>
-            <a href="https://www.instagram.com/lyonomar/">
-                <img src="images/instagram.svg" alt="Instagram">
-            </a>
-            <a href="https://wa.link/zcnzhd">
-                <img src="images/whatsapp.svg" alt="WhatsApp">
-            </a>
+        <a href="https://www.linkedin.com/in/lyonomar/">
+            <img src="images/linekdin.svg" alt="LinkedIn">
+        </a>
+        <a href="https://www.instagram.com/lyonomar/">
+            <img src="images/instagram.svg" alt="Instagram">
+        </a>
+        <a href="https://wa.link/zcnzhd">
+             <img src="images/whatsapp.svg" alt="WhatsApp">
+        </a>
         </nav>
     </footer>
 </body>
