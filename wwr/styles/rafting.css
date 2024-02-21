@@ -125,10 +125,10 @@ main h1 {
     display: grid;
 }
 
-.grid1 {
+.grid1 img, figure {
     display: flex;
-    flex-flow:row;
-
+    justify-content: space-around;
+    flex-direction: row-reverse;
 
 }
 
